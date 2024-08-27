@@ -15,7 +15,7 @@
 
 cd /PATH/TO/ANALYSIS_FOLDER/
 
-### If you workd with modules (as we do), load the software modules required:
+### If you workd with modules (as we do), load the software modules required (first, make sure they are available on your system of course):
 
 module load BWA
 module load VCFtools
@@ -25,4 +25,4 @@ module load Trimmomatic
 module load Perl
 module load GATK
 
-perl /PATH/TO/rimAndMapAndHap_MdV.pl
+perl /PATH/TO/Trim_Map_Hap_Merge.pl
