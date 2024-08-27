@@ -25,4 +25,4 @@ module load Trimmomatic
 module load Perl
 module load GATK
 
-perl /PATH/TO/Trim_Map_Hap_Merge.pl
+perl /PATH/TO/Trim_Map_Hap_Merge_MAIN.pl
