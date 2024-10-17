@@ -28,7 +28,6 @@ echo "\n\nSeparating SNPs from INDELs in raw, ms-VCF and applying stringent filt
 /PATH/TO/vcftools --vcf MAIN.ExHW.g.vcf --keep-only-indels --recode --recode-INFO-all --out MAIN.ExHW.g.vcf.indels
 
 
-
 ## Apply filters
 
 /PATH/TO/gatk --java-options '-Xms800m -Xmx110g -DGATK_STACKTRACE_ON_USER_EXCEPTION=true' VariantFiltration -R /PATH/TO/Tdob_reference_7139unique.fasta -V MAIN.ExHW.g.vcf.SNPs.recode.vcf -O MAIN.ExHW.g.vcf.SNPs.recode.qfilt.vcf --filter-expression 'QD < 2.0' --filter-name 'QDfail' --filter-expression 'MQ < 40.0' --filter-name 'MQfail' --filter-expression 'FS > 60.0' --filter-name 'FSfail' --filter-expression 'MQRankSum < -12.5' --filter-name 'MQRankSumFail' --filter-expression 'ReadPosRankSum < -8.0' --filter-name 'ReadPosRankSumFail' --filter-expression 'QUAL < 30' --filter-name 'qualFail'
