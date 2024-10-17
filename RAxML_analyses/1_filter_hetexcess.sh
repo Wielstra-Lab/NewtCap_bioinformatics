@@ -11,7 +11,7 @@
 #SBATCH --mail-user=
 
 # Change to directory where the msgVCF is located that contains the samples of interest for a certain phylogenetic analysis
-cd /PATH/TO/MERGED_VARIANTS/
+cd /PATH/TO/VARIANTS/
 
 # Load modules
 module load BCFtools
