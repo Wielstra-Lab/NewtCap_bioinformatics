@@ -295,7 +295,7 @@ print "\n\nPerforming joint-genotype calling using the created database\n\n";
 system("gatk --java-options '-Xms800m -Xmx110g -DGATK_STACKTRACE_ON_USER_EXCEPTION=true' GenotypeGVCFs" .
 " -R /PATH/TO/Tdob_reference_7139unique.fasta" .
 " -V gendb://MY_NEWTCAP_DATABASE" .
-" -O VARIANTS/ERC_jointgeno.g.vcf" .
+" -O VARIANTS/MAIN.g.vcf" .
 " --tmp-dir /PATH/TO/TEMPORARY_FILES_FOLDER");
 
 print "\n\nFinished joint-genotype calling, created raw ms-gVCF. Move on to downstream analyses! \n\n";
