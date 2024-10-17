@@ -11,7 +11,7 @@
 #SBATCH --mail-user=
 
 
-# Change to directory where the msgVCF is located that contains the samples of interest for a certain phylogenetic analysis
+# Change to directory where the file is located that contains the samples of interest for a certain phylogenetic analysis and that has been through the HWE deviations filtering, the SNP quality filtering, and the maxmissing filtering steps
 cd /PATH/TO/VARIANTS/
 
 # Load required modules (see GitHub respositories highlighted in line 22 and 29 for more information)
