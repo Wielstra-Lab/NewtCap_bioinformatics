@@ -19,27 +19,27 @@ Below the folders on this GitHub __'NewtCap+bioinformatics' repository__, includ
  - __flagstat_SLURM.sh__                 [batch script meant for SLURM with the command used to obtain statistics data from BAM files by using SAMtools' flagstat function]
  - __stats_SLURM.sh__                    [batch script meant for SLURM with the command used to obtain statistics data from VCF.gz files by using BCFtools' stats function]
 
-## Master_preprocessing_pipeline
+### Master_preprocessing_pipeline
  - __Trim_Map_Hap_Merge_MAIN.pl__        [Perl script containing the commands/steps/tools used for pre-processing sequence data, including trimming/cleaning, mapping, variant calling, and merging of VCF files]
  - __Trim_Map_Hap_Merge_SLURM.sh__       [batch script meant for SLURM that can be used in order to run the master Perl script above]
  - __bbmap_repair.sh__                   [shell script that is used to sort/sync R1 and R2 FASTQ files after the BBduk step - this script is being called on by the master Perl script above]
 
-## PCA_and_HC_analysis
+### PCA_and_HC_analysis
  - __T.iva_PCA_HC.R__                    [R script containing the commands used to conduct a Principal Component Analysis and a Hierarchical Clustering analyses] 
 
-## RAxML_analyses
+### RAxML_analyses
  - __1_filter_hetexcess.sh__             [step 1 of SNP filtering: shell script that is used to filter out sites that deviate from Hardy Weinberg Equilibrium (heterozygote excess sites, specifically)]
  - __2_apply_hard_qfilters.sh__          [step 2 of SNP filtering: shell script that is used to separate INDELS from SNPS and to perform stringent quality filtering]
  - __3_maxmissing.sh__                   [step 3 of SNP filtering: shell script that is used to remove missing data]
  - __4_run_vcf2phylip_and_ascbias.sh__   [step 4 of SNP filtering: shell script containing the commands/external scripts used to transform the VCF to PHYLIP format and to perform the 'ascbias' correction / remove 'uninvariant' sites]
  - __5_run_RAxML.sh__                    [step 5 after SNP filtering: batch scripit meant for SLURM with the command used to run RAxML on the final, filtered, PHYLIP file]
 
-## triangulaR_hybrid_analyses
+### triangulaR_hybrid_analyses
  - __run_triangulaR_custom.R__           [R script containing the commands used to conduct (customized) hybrid analysis with triangulaR]
 
 
 
-### Other files:
+# Other files:
 
 If you require additional files to run analyses that are not provided here, such as FASTA files, protocols, or a list of NewtCap target names, please check the __Zenodo repository__ instead: 
 https://zenodo.org/records/13785684
