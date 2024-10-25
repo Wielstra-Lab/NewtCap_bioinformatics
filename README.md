@@ -42,4 +42,4 @@ Below the folders on this GitHub __'NewtCap+bioinformatics' repository__, includ
 # Other files:
 
 If you require additional files to run analyses that are not provided here, such as FASTA files, protocols, or a list of NewtCap target names, please check the __Zenodo repository__ instead: 
-https://zenodo.org/records/13785684
+- https://zenodo.org/records/13987888
