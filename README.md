@@ -1,7 +1,7 @@
 # NewtCap Bioinformatics
 
 This repository comprises different folders that each contain (a set of) scripts/code used for the analyses in: 
-__[De Visser, M.C. et al., NewtCap: an efficient target capture approach to boost genomic studies in Salamandridae (True Salamanders and Newts). in prep]__
+__[De Visser, M.C. et al. NewtCap: an efficient target capture approach to boost genomic studies in Salamandridae (True Salamanders and Newts). in prep]__
 
 We refer to the method section of the above paper for the details on each of the steps / scripts / folders provided, as the method section should make that clear.
 However, if things are still unclear, please read the following:
@@ -10,7 +10,7 @@ However, if things are still unclear, please read the following:
 
 # Folders here on GitHub
 
-Below the folders on this GitHub __'NewtCap+bioinformatics' repository__, including the scripts/files they conrtain, are listed so you can easily find what you are looking for:
+Below the folders on this GitHub __'NewtCap+bioinformatics' repository__, including the scripts/files they contain, are listed so you can easily find what you are looking for:
 
 ### Bait_performance_statistiscs
 
